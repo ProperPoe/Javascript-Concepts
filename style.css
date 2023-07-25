@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(50, 50, 50);
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+}
+
+.container .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.container .form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .form-container form input {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theList {
+    color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 36px;
+}
+
+.theList ul {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.theList ul li{
+
+    list-style-type: none;
+    display: flex;
+}
+
+#buttonId {
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+
+}
+
+#buttonId:hover{
+    background-color: aqua;
+    color: black;
+}
